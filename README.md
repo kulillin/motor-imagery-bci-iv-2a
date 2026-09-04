@@ -31,9 +31,12 @@ motor-imagery-bci-iv-2a/
 ![Results table](images/table1_results.png)
 
 v1 – v3 are preserved to document the project's methodological progression, they were not re-run with later findings (optimal parameter values were found later through cross-validation)
-Comparison to BCI Competition IV official rankings (kappa):
-https://www.bbci.de/competition/iv/results/#dataset2a 
-- this project v4:   0.57
+
+Comparison to BCI Competition IV official rankings (kappa): https://www.bbci.de/competition/iv/results/#dataset2a 
+
+** this project v4:   0.57 **
+
+Official competition rankings:
 - 1st  place (Kai Keng Ang):   0.57
 - 2nd place (Liu Guangquan):   0.52 
 - 3rd place (Wei Song):   0.31
@@ -52,7 +55,7 @@ Individual OVR classifier accuracy (each class vs. the other three combined) inc
 
 ![Architecture diagram](images/architecture_diagram.png)
 
-## V) Parameters choice and cross – validation.
+## V) Parameters choice and cross-validation.
 
 ![Parameters table](images/table4_parameters.png)
 
@@ -66,8 +69,8 @@ Cross-validation performed on v1 architecture without ICA.
 
 4.	Ang et al., 2012
 
-5. n_components and k were cross-validated jointly to find the best combination Candidates.  
-CSP n_component: 2, 4, 6, 8.  
+5. n_components and k were cross-validated jointly to find the best combination  
+Candidates CSP n_component: 2, 4, 6, 8.  
 Candidates k (SelectKBest): 2, 4, 6, 8, 10, 12, 14.  
 Cross-validation performed on v3 architecture with window (0, 4)
 
